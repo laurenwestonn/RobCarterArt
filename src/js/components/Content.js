@@ -3,7 +3,84 @@ import React from "react";
 function Content(props) {
 
   return (
-    <h3>Content</h3>
+    <div className='content'>
+      <h3>My work</h3>
+
+      <div className="feed">
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      <div className="square">
+        
+      </div>
+      </div>
+    </div>
   )
 }
 

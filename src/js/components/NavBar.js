@@ -2,7 +2,9 @@ import React from "react";
 
 function NavBar(props) {
   return(
-    <h1>nav bar</h1>
+    <div className='nav-bar'>
+      <h1>ROB CARTER ART</h1>
+    </div>
   )
 }
 
