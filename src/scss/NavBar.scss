@@ -1,0 +1,43 @@
+
+
+.navBar {
+  flex-basis: 100%;
+  background: burlywood;
+  padding: 0 10px;
+  background: white;
+
+  @media only screen and (min-width: 768px) {
+    flex-basis: 250px;
+    height: 100vh;
+    padding: 0 40px;
+  }
+}
+
+.navBar__links {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  font-size: 14px;
+
+  @media only screen and (min-width: 768px) {
+    flex-direction: column;
+    font-size: 16px;
+  }
+  li {
+    margin: 20px 20px 20px 0;
+  }
+
+  a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+    &:active,
+    &:hover,
+    &:focus {
+      color: black;
+    }
+  }
+}

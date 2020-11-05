@@ -19,9 +19,6 @@ function NavBar(props) {
         <li>
           <Link to="/half/schedule">Photo edits</Link>
         </li>
-        <li>
-          <Link to="/half/gifts">Contact me</Link>
-        </li>
       </ul>
     </div>
   )
