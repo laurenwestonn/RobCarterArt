@@ -13,6 +13,23 @@
   }
 }
 
+.navBar__title {
+  font-size: 20px;
+  margin-top: 20px;
+  @media only screen and (min-width: 768px) {
+    font-size: 30px;
+    margin-top: 40px;
+  }
+}
+
+.robCartoon {
+  display: none;
+  @media only screen and (min-width: 768px) {
+    display: block;
+    width: 100%;
+  }
+}
+
 .navBar__links {
   display: flex;
   flex-direction: row;
@@ -20,24 +37,29 @@
   margin-bottom: 0;
   list-style: none;
   font-size: 14px;
+  overflow-y: hidden;
 
   @media only screen and (min-width: 768px) {
     flex-direction: column;
     font-size: 16px;
   }
   li {
-    margin: 20px 20px 20px 0;
-  }
-
-  a {
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-
-    &:active,
-    &:hover,
-    &:focus {
-      color: black;
+    margin: 10px 20px 10px 0;
+    flex: 0 0 auto;
+    @media only screen and (min-width: 768px) {
+      margin: 20px 20px 20px 0;
     }
+  }
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:active,
+  &:hover,
+  &:focus {
+    color: black;
   }
 }

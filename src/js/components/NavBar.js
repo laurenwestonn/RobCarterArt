@@ -1,14 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import robCartoon from "../../images/robCartoon.webp";
 
 function NavBar(props) {
   return(
     <div className='navBar'>
-      <h1>ROB CARTER ART</h1>
-      
+      <h1 className='navBar__title'><Link to="/">ROB CARTER ART</Link></h1>
+      <img className="robCartoon" alt="rob cartoon" src={robCartoon} />
       <ul className='navBar__links'>
         <li>
-          <Link to="/">Pet portraits</Link>
+          <Link to="/">Portraits</Link>
         </li>
         <li>
           <Link to="/illustrations">Illustrations</Link>
