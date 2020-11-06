@@ -51,14 +51,9 @@
   }
 }
 
-a {
-  color: black;
-  font-weight: bold;
-  text-decoration: none;
-
-  &:active,
-  &:hover,
-  &:focus {
-    color: black;
+.navBar__link {
+  &:hover {
+    border-bottom: 2px solid maroon;
   }
+
 }

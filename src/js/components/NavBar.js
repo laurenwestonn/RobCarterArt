@@ -8,17 +8,17 @@ function NavBar(props) {
       <h1 className='navBar__title'><Link to="/">ROB CARTER ART</Link></h1>
       <img className="robCartoon" alt="rob cartoon" src={robCartoon} />
       <ul className='navBar__links'>
-        <li>
+        <li className="navBar__link">
           <Link to="/">Portraits</Link>
         </li>
-        <li>
+        <li className="navBar__link">
           <Link to="/illustrations">Illustrations</Link>
         </li>
-        <li>
-          <Link to="/half/rsvp">Commissions</Link>
+        <li className="navBar__link">
+          <Link to="/">Commissions</Link>
         </li>
-        <li>
-          <Link to="/half/schedule">Photo edits</Link>
+        <li className="navBar__link">
+          <Link to="/">Photo edits</Link>
         </li>
       </ul>
     </div>
