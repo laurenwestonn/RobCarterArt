@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.85d0a969.chunk.css",
-    "main.js": "/static/js/main.b5a1515e.chunk.js",
-    "main.js.map": "/static/js/main.b5a1515e.chunk.js.map",
+    "main.css": "/static/css/main.4d4ddd1b.chunk.css",
+    "main.js": "/static/js/main.60560d8f.chunk.js",
+    "main.js.map": "/static/js/main.60560d8f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.908f582e.js",
     "runtime-main.js.map": "/static/js/runtime-main.908f582e.js.map",
     "static/js/2.d29cb8c9.chunk.js": "/static/js/2.d29cb8c9.chunk.js",
@@ -10,14 +10,13 @@
     "static/js/3.0f55a967.chunk.js": "/static/js/3.0f55a967.chunk.js",
     "static/js/3.0f55a967.chunk.js.map": "/static/js/3.0f55a967.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.85d0a969.chunk.css.map": "/static/css/main.85d0a969.chunk.css.map",
-    "static/js/2.d29cb8c9.chunk.js.LICENSE.txt": "/static/js/2.d29cb8c9.chunk.js.LICENSE.txt",
-    "static/media/robCartoon.7f9eca4c.webp": "/static/media/robCartoon.7f9eca4c.webp"
+    "static/css/main.4d4ddd1b.chunk.css.map": "/static/css/main.4d4ddd1b.chunk.css.map",
+    "static/js/2.d29cb8c9.chunk.js.LICENSE.txt": "/static/js/2.d29cb8c9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.908f582e.js",
     "static/js/2.d29cb8c9.chunk.js",
-    "static/css/main.85d0a969.chunk.css",
-    "static/js/main.b5a1515e.chunk.js"
+    "static/css/main.4d4ddd1b.chunk.css",
+    "static/js/main.60560d8f.chunk.js"
   ]
 }
