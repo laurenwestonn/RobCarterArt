@@ -5,6 +5,27 @@
   overflow: auto;
   height: 100vh;
   flex: 1;
+  z-index: 0;
+}
+
+.backgroundDecoration__thin {
+  width: 1177px;
+  height: 31px;
+  background: maroon;
+  transform: translateX(100px) translateY(300px) rotate(50deg);
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
+
+.backgroundDecoration__thick {
+  width: 1177px;
+  height: 200px;
+  background: maroon;
+  transform: translateX(270px) translateY(165px) rotate(50deg);
+  position: absolute;
+  right: 0;
+  z-index: -1;
 }
 
 .feed {

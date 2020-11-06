@@ -4,7 +4,12 @@ function Content(props) {
 
   return (
     <div className='content'>
-      <h3>My work</h3>
+      <h3>Portraits</h3>
+
+      <div className="backgroundDecoration">
+      <div className="backgroundDecoration__thin"></div>
+      <div className="backgroundDecoration__thick"></div>
+      </div>
 
       <div className="feed">
       <div className="square">

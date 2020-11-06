@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import robCartoon from "../../images/robCartoon.webp";
+import robCartoon from "../../images/robCartoon.jpg";
 
 function NavBar(props) {
   return(
