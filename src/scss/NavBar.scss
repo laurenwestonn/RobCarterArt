@@ -52,8 +52,15 @@
 }
 
 .navBar__link {
+  // color: maroon;
+  transition: background-size .3s;
+  background-image: linear-gradient(maroon,maroon);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 2px;
   &:hover {
-    border-bottom: 2px solid maroon;
+    // border-bottom: 2px solid maroon;
+    background-size: 100% 2px;
   }
 
 }
