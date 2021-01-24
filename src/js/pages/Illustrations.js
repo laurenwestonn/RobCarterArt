@@ -1,63 +1,12 @@
 import React from "react";
+import Content from './Content';
+import robCartoon from "../../images/robCartoon.jpg";
 
-function Content(props) {
 
+function Illustrations(props) {
   return (
-    <div className='content'>
-      <h3>Illustrations</h3>
-
-      <div className="feed">
-      <div className="square">
-        
-      </div>
-      <div className="square">
-        
-      </div>
-      <div className="square">
-        
-      </div>
-      <div className="square">
-        
-      </div>
-      <div className="square">
-        
-      </div>
-      <div className="square">
-        
-      </div>
-      <div className="square">
-        
-      </div>
-      <div className="square">
-        
-      </div>
-      <div className="square">
-        
-      </div>
-      <div className="square">
-        
-      </div>
-      <div className="square">
-        
-      </div>
-      <div className="square">
-        
-      </div>
-      <div className="square">
-        
-      </div>
-      <div className="square">
-        
-      </div>
-      <div className="square">
-        
-      </div>
-      <div className="square">
-        
-      </div>
-      </div>
-    </div>
+    <Content title="Illustrations" images={[robCartoon, robCartoon, robCartoon, robCartoon, robCartoon]} />
   )
 }
 
-export default Content;
+export default Illustrations;
