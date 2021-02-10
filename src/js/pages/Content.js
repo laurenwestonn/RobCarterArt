@@ -1,8 +1,9 @@
 import React from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-// import robCartoon from "../../images/robCartoon.jpg";
+
 function Content(props) {
   const columnsCountBreakPoints = { 350: 2, 768: 2, 900: 3, 1024: 4 };
+  var i = 0;
   return (
     <div className='content'>
       <h3>{props.title}</h3>
@@ -13,24 +14,11 @@ function Content(props) {
       </div>
 
       <ResponsiveMasonry columnsCountBreakPoints={columnsCountBreakPoints}>
-        <Masonry gutter={14}>
+        <Masonry gutter={"14px"}>
           {props.images && props.images.map(image => {
-            return <img className="masonry-image" src={image} alt={props.title} />
+            i++
+            return <img className="masonry-image" src={image} alt={props.title} key={i} />
           })}
-          <div className="item square"></div>
-          <div className="item rectangle"></div>
-          <div className="item square"></div>
-          <div className="item rectangle"></div>
-          <div className="item rectangle"></div>
-          <div className="item rectangle"></div>
-          <div className="item rectangle"></div>
-          <div className="item square"></div>
-          <div className="item rectangle"></div>
-          <div className="item square"></div>
-          <div className="item square"></div>
-          <div className="item rectangle"></div>
-          <div className="item rectangle"></div>
-          <div className="item square"></div>
         </Masonry>
       </ResponsiveMasonry>
     </div>
