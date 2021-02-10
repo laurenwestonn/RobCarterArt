@@ -20,10 +20,10 @@ function NavBar(props) {
           <Link to="/illustrations" className="navBar__link">Illustrations</Link>
         </li>
         <li className="navBar__link--wrapper">
-          <Link to="/" className="navBar__link">Commissions</Link>
+          <Link to="/photoEditing" className="navBar__link">Photo Editing</Link>
         </li>
         <li className="navBar__link--wrapper">
-          <Link to="/" className="navBar__link">Photo edits</Link>
+          <Link to="/logos" className="navBar__link">Logos</Link>
         </li>
       </ul>
     </div>
