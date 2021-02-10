@@ -8,7 +8,7 @@ function NavBar(props) {
     <div className='navBar'>
       <h1 className='navBar__title'>
         <Link to="/">
-          <img class="navBar__logo" alt="rob cartoon" src={logo} />
+          <img className="navBar__logo" alt="rob cartoon" src={logo} />
         </Link>
       </h1>
       
