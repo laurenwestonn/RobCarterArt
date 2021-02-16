@@ -15,11 +15,6 @@ function Content(props) {
   return (
     <div className="content">
       <div className="content-grid">
-        <div className="backgroundDecoration">
-          <div className="backgroundDecoration__thin"></div>
-          <div className="backgroundDecoration__thick"></div>
-        </div>
-
         <ResponsiveMasonry columnsCountBreakPoints={columnsCountBreakPoints}>
           <Masonry gutter={"10px"}>
             {props.images && props.images.map((image, i) => {
@@ -29,6 +24,11 @@ function Content(props) {
         </ResponsiveMasonry>
       </div>
 
+      <div className="backgroundDecoration">
+        <div className="backgroundDecoration__thin"></div>
+        <div className="backgroundDecoration__thick"></div>
+      </div>
+      
       <Modal 
         showModal={showModal}
         image={clickedImage}
