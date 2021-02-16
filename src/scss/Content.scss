@@ -1,9 +1,14 @@
-.content { 
-  padding: 40px;
-  overflow: auto;
+.content {
+  position: relative;
   height: 100vh;
   flex: 1;
   z-index: 0;
+  overflow-x: hidden;
+
+}
+
+.content-grid {
+  padding: 40px;
 }
 
 .backgroundDecoration__thin {
