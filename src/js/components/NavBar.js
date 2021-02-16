@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../../images/Logo.jpg";
 
 function NavBar(props) {
@@ -7,23 +7,23 @@ function NavBar(props) {
   return(
     <div className='navBar'>
       <h1 className='navBar__title'>
-        <Link to="/">
+        <NavLink to="/">
           <img className="navBar__logo" alt="rob cartoon" src={logo} />
-        </Link>
+        </NavLink>
       </h1>
       
       <ul className='navBar__links'>
         <li className="navBar__link--wrapper">
-          <Link to="/" className="navBar__link">Portraits</Link>
+          <NavLink to="/portraits" className="navBar__link" activeClassName="navBar__link--active">Portraits</NavLink>
         </li>
         <li className="navBar__link--wrapper">
-          <Link to="/illustrations" className="navBar__link">Illustrations</Link>
+          <NavLink to="/illustrations" className="navBar__link" activeClassName="navBar__link--active">Illustrations</NavLink>
         </li>
         <li className="navBar__link--wrapper">
-          <Link to="/photoEditing" className="navBar__link">Photo Editing</Link>
+          <NavLink to="/photoEditing" className="navBar__link" activeClassName="navBar__link--active">Photo Editing</NavLink>
         </li>
         <li className="navBar__link--wrapper">
-          <Link to="/logos" className="navBar__link">Logos</Link>
+          <NavLink to="/logos" className="navBar__link" activeClassName="navBar__link--active">Logos</NavLink>
         </li>
       </ul>
     </div>

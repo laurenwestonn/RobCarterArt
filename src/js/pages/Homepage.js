@@ -11,6 +11,7 @@ function Homepage() {
     <div className="homepage">
       <NavBar />
       <Route exact={true} path="/" component={Portraits} />
+      <Route exact={true} path="/Portraits" component={Portraits} />
       <Route exact={true} path="/Illustrations" component={Illustrations} />
       <Route exact={true} path="/Logos" component={Logos} />
       <Route exact={true} path="/PhotoEditing" component={PhotoEditing} />
